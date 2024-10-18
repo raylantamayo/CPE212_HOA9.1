@@ -1,0 +1,8 @@
+[0;1;32m●[0m prometheus.service - Monitoring system and time series database
+   Loaded: loaded (/lib/systemd/system/prometheus.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Fri 2024-10-18 09:43:24 +08; 3min 2s ago
+     Docs: https://prometheus.io/docs/introduction/overview/
+ Main PID: 8864 (prometheus)
+    Tasks: 10 (limit: 2318)
+   CGroup: /system.slice/prometheus.service
+           └─8864 /usr/bin/prometheus
